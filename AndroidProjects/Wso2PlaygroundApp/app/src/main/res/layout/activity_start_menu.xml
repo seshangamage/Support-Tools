@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CAE1FF"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/textname"
+        android:textColor="#1874CD"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button_production"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="@string/production"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/button_preprod"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="@string/preprod"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/button_sandbox"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="@string/sandbox"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/button_unregister"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:background="@color/redPrimary"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="@string/unregister"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/button_start_exit"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="Exit"
+        android:textColor="#fff" />
+
+</LinearLayout>
+
+
+
+
+

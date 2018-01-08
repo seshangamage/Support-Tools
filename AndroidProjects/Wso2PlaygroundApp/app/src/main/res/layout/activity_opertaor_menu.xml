@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CAE1FF"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <ImageButton
+        android:id="@+id/button_aircel"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:background="@color/opertaorButton"
+        android:src="@drawable/aircel" />
+
+    <ImageButton
+        android:id="@+id/button_airtel"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:background="@color/opertaorButton"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:src="@drawable/airtel" />
+
+    <ImageButton
+        android:id="@+id/button_idea"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:background="@color/opertaorButton"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:src="@drawable/idea" />
+
+    <ImageButton
+        android:id="@+id/button_spark"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:background="@color/opertaorButton"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:src="@drawable/spark" />
+
+    <ImageButton
+        android:id="@+id/button_tatadocomo"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:background="@color/opertaorButton"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:src="@drawable/tata" />
+
+    <ImageButton
+        android:id="@+id/button_telenor"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:background="@color/opertaorButton"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:src="@drawable/telenor" />
+
+    <ImageButton
+        android:id="@+id/button_vodafone"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:background="@color/opertaorButton"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:src="@drawable/vodafone" />
+
+
+
+
+    <Button
+        android:text="Exit"
+        android:id="@+id/button_start_exit"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+</LinearLayout>

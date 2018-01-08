@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CAE1FF"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/textname"
+        android:textColor="#1874CD"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txt_siplay_client_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Oauth Code"
+        android:textColor="#1874CD"
+        android:textSize="15sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txt_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#1874CD"
+        android:textSize="15sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txt_display_token_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Token_ID"
+        android:textColor="#1874CD"
+        android:textSize="15sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txt_token"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#1874CD"
+        android:textSize="15sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txt_display_userinfo_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="User Info"
+        android:textColor="#1874CD"
+        android:textSize="15sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txt_userinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#1874CD"
+        android:textSize="15sp"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button_main_menu"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dip"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="Main Menu"
+        android:textColor="#fff" />
+
+</LinearLayout>

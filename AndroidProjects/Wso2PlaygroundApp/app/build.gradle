@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        Android {
+            keyAlias 'android'
+            storeFile file('/home/sheshan/Desktop/AndroidKey/androidKey.jks')
+            keyPassword '1qaz2wsx@'
+            storePassword '1qaz2wsx@'
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion "25.0.1"
+    defaultConfig {
+        applicationId "playground.wso2telco.sheshan.com.wso2playgroundapp"
+        minSdkVersion 9
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        useLibrary 'org.apache.http.legacy'
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
+    //compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.2.3'
+    // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpcore
+    compile 'org.apache.httpcomponents:httpcore:4.4.1'
+    testCompile 'junit:junit:4.12'
+}

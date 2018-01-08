@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CAE1FF</color>
+    <color name="colorPrimaryDark">#1874CD</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="light_black">#504f4f</color>
+    <color name="black">#000000</color>
+    <color name="redPrimary">#DC143C</color>
+    <color name="opertaorButton">#14b4dc</color>
+</resources>

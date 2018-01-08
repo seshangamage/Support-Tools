@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CAE1FF"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <ImageButton
+        android:id="@+id/button_algar"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:background="@color/opertaorButton"
+        android:src="@drawable/algar" />
+
+    <ImageButton
+        android:id="@+id/button_claro"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:background="@color/opertaorButton"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:src="@drawable/claro" />
+
+    <ImageButton
+        android:id="@+id/button_tim"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:background="@color/opertaorButton"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:src="@drawable/tim" />
+
+    <ImageButton
+        android:id="@+id/button_vivo"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:background="@color/opertaorButton"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:src="@drawable/vivo" />
+
+    <ImageButton
+        android:id="@+id/button_oi"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:background="@color/opertaorButton"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:src="@drawable/oi" />
+
+    <ImageButton
+        android:id="@+id/button_nii"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:background="@color/opertaorButton"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:src="@drawable/nii" />
+
+    <ImageButton
+        android:id="@+id/button_spark"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:background="@color/opertaorButton"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:src="@drawable/spark" />
+
+
+
+
+    <Button
+        android:text="Exit"
+        android:id="@+id/button_start_exit"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+</LinearLayout>

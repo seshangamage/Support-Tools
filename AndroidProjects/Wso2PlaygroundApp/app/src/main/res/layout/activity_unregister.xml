@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CAE1FF"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <TextView
+        android:id="@+id/contact_form_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/textname"
+        android:textColor="#1874CD"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Phone Number"
+        android:textColor="#1874CD"
+        android:textSize="15sp"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    
+        <TextView
+        android:id="@+id/text_response_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:text=""
+        android:textColor="#1874CD"
+        android:textSize="15sp"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button_production_unregister"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dip"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="Unregister"    
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/button_back_to_main"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="Main Menu"
+        android:textColor="#fff" />
+
+</LinearLayout>
